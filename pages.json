@@ -1,0 +1,394 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/start/start",
+			"style": {
+				"app-plus": {
+					"bounce": "none",
+					//app页面不显示滚动条
+					"scrollIndicator": "none"
+				},
+				"disableScroll": true
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "系统管理首页"
+			}
+		},
+		{
+			"path": "pages/report/report",
+			"style": {
+				"navigationBarTitleText": "门店经营报表",
+				"disableScroll": true
+			}
+		},
+		{
+			"path": "pages/sales/sales",
+			"style": {
+				"navigationBarTitleText": "门店销售管理"
+			}
+		},
+		{
+			"path": "pages/manager/manager",
+			"style": {
+				"navigationBarTitleText": "会员中心",
+				"disableScroll": true
+			}
+		}, {
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "预警消息",
+				"disableScroll": true
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "用户登录",
+				"disableScroll": true
+			}
+		}
+
+	],
+
+	"subPackages": [{
+			"root": "store",
+			"name": "store",
+			"pages": [{
+				"path": "create/create",
+				"style": {
+					"navigationBarTitleText": "创建门店",
+					"disableScroll": true
+				}
+			}, {
+				"path": "test/test",
+				"style": {
+					"navigationBarTitleText": "组件测试使用"
+				}
+			}, {
+				"path": "add/add",
+				"style": {
+					"navigationBarTitleText": "添加门店"
+				}
+			}, {
+				"path": "list/list",
+				"style": {
+					"navigationBarTitleText": "门店列表"
+				}
+			}, {
+				"path": "total/total",
+				"style": {
+					"navigationBarTitleText": "连锁总店管理",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "cashier/cashier",
+				"style": {
+					"navigationBarTitleText": "收银方式管理",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "marketing/marketing",
+				"style": {
+					"navigationBarTitleText": "优惠活动管理",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "integral/integral",
+				"style": {
+					"navigationBarTitleText": "积分管理",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "coupon/coupon",
+				"style": {
+					"navigationBarTitleText": "优惠券管理",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "couponEdit/couponEdit",
+				"style": {
+					"navigationBarTitleText": "编辑优惠券",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "sendList/sendList",
+				"style": {
+					"navigationBarTitleText": "优惠券发放管理",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "system/system",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "water/water",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "sellRePort/sellRePort",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "customer/customer",
+				"style": {
+					"navigationBarTitleText": "客户管理系统",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "customer/edit",
+				"style": {
+					"navigationBarTitleText": "编辑客户信息",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "customer/status",
+				"style": {
+					"navigationBarTitleText": "客户状态管理",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "costRePort/costRePort",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}]
+		},
+		{
+			"root": "member",
+			"name": "member",
+			"pages": [{
+				"path": "list/list",
+				"style": {
+					"navigationBarTitleText": "门店客户管理",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "create/create",
+				"style": {
+					"navigationBarTitleText": "创建门店客户",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "level/level",
+				"style": {
+					"navigationBarTitleText": "会员级别管理",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "sell/sell",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "chooseGoods/chooseGoods",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "amount/amount",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "times/times",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "userCardSet/userCardSet",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "cost/cost",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}]
+		},
+		{
+			"root": "goods",
+			"name": "goods",
+			"pages": [{
+				"path": "brand/brand",
+				"style": {
+					"navigationBarTitleText": "商品品牌管理",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "category/category",
+				"style": {
+					"navigationBarTitleText": "商品分类管理",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "add/add",
+				"style": {
+					"navigationBarTitleText": "商品添加",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "list/list",
+				"style": {
+					"navigationBarTitleText": "产品管理",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "transfers/transfers",
+				"style": {
+					"navigationBarTitleText": "库存调拨",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "production/production",
+				"style": {
+					"navigationBarTitleText": "生产供应商管理",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "parentCategory/parentCategory",
+				"style": {
+					"navigationBarTitleText": "商品子级分类管理",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "edit/edit",
+				"style": {
+					"navigationBarTitleText": "编辑修改商品",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "repertory/repertory",
+				"style": {
+					"navigationBarTitleText": "商品入库管理",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "skuStock/skuStock",
+				"style": {
+					"navigationBarTitleText": "商品入库管理",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "stockCheck/stockCheck",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}]
+		}
+	],
+
+	"preloadRule": {
+		"store/create/create": {
+			"network": "all",
+			"packages": ["store"]
+		}
+	},
+
+	"globalStyle": {
+		"backgroundColor": "#69C3AA",
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#69C3AA",
+		"navigationBarTitleText": "门店记账助手",
+		"backgroundColorBottom": "#69C3AA",
+		"navigationBarTextStyle": "white"
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"color": "#8F8F94",
+		"selectedColor": "#009966",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/img/tabbar/home.png",
+				"selectedIconPath": "/static/img/tabbar/homeactive.png",
+				"text": "管理首页"
+			},
+			{
+				"pagePath": "pages/report/report",
+				"iconPath": "/static/img/tabbar/guanzhu.png",
+				"selectedIconPath": "/static/img/tabbar/guanzhuactive.png",
+				"text": "经营报表"
+			},
+			//#ifdef MP-WEIXIN
+			{
+				"pagePath": "pages/sales/sales",
+				"iconPath": "/static/img/tabbar/add.png",
+				"selectedIconPath": "/static/img/tabbar/addactive.png",
+				"text": "卖场销售"
+			},
+			//#endif
+			//#ifndef MP-WEIXIN
+			{
+				"pagePath": "pages/sales/sales",
+				"iconPath": "/static/img/tabbar/add.png",
+				"selectedIconPath": "/static/img/tabbar/addactive.png"
+			},
+			//#endif
+			{
+				"pagePath": "pages/message/message",
+				"iconPath": "static/img/tabbar/news.png",
+				"selectedIconPath": "static/img/tabbar/newsactive.png",
+				"text": "预警通知"
+			},
+			{
+				"pagePath": "pages/manager/manager",
+				"iconPath": "static/img/tabbar/me.png",
+				"selectedIconPath": "static/img/tabbar/meactive.png",
+				"text": "会员中心"
+			}
+		]
+	},
+	"style": "v2",
+	"sitemapLocation": "sitemap.json"
+}
